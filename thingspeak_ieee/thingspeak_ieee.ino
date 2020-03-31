@@ -99,7 +99,7 @@ void write_to_thingspeak() {
 }
 
 //------------------------------------------------------------------
-G
+
 void setup() {
   Serial.begin(BAUD_RATE);
   delay(1000);
