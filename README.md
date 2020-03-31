@@ -10,7 +10,9 @@
     - Perform a Bluetooth sweep.
     - Upload the MAC addresses you see to ThingSpeak, along with a timestamp.
 
-# How to flash our code to your ESP32 from the Arduino IDEr
+----------------------------------------
+
+# Setup
 
 This assumes you have already made copy of the code where you **gave it the WiFi crededentials and ThingSpeak API keys for _your_ situation**. If you haven't done that yet, do that first.
 
@@ -46,8 +48,20 @@ If you've done everything, **your code should now compile correctly without size
 
 ![](imgs/esp32-verify-results.png)
 
+## Copy the code SOMEWHERE PRIVATE and fill in your private credentials
+
+If you want to keep everything together inside this GitHub, you can make an `_init/` folder that will be automatically ignored (check our `.gitignore` file to see for yourself).
+
+But **you really don't want to fork this and modify the file in place**.
+
+Doing so means that when you push those changes back up to GitHub, **anyone can see your API keys and read/write anything they want**, and more disturbingly, **anyone can see your WiFi information**.
+
+![](imgs/esp32-fill-in-credentials.png)
+
+
 ## Upload, open Serial Monitor ![](imgs/esp32-serial-monitor.png) and watch the magic!
 
+------------------------------
 
 ## About the ESP32
 
