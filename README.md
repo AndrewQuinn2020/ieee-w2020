@@ -1,7 +1,5 @@
 # Winter 2020 IEEE Project
 
-Short version of what this Arduino sketch does
-
 # What the Arduino sketch does
 
 - For each ESP 32:
@@ -12,7 +10,7 @@ Short version of what this Arduino sketch does
     - Perform a Bluetooth sweep.
     - Upload the MAC addresses you see to ThingSpeak, along with a timestamp.
 
-# How to flash our code to your ESP32 from the Arduino IDE
+# How to flash our code to your ESP32 from the Arduino IDEr
 
 This assumes you have already made copy of the code where you **gave it the WiFi crededentials and ThingSpeak API keys for _your_ situation**. If you haven't done that yet, do that first.
 
