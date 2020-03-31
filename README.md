@@ -1,2 +1,3 @@
-# ieee-w2020
-Winter 2020 IEEE project @ Northwestern University
+# Winter 2020 IEEE Project
+
+Winter 2020 IEEE Project code repository. Heavily a work in progress. Please stand by.
