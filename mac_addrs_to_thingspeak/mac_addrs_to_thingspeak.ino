@@ -312,6 +312,14 @@ void write_to_thingspeak() {
   return;
 }
 
+void read_from_thingspeak() {
+  Serial.println("Reading what the last ThingSpeak fields were from server.");
+
+  for (int i = 1; i <= 8; i++) {
+    Serial.println(ThingSpeak.readStringField(myChannelNumber, i));
+  }
+}
+
 //------------------------------------------------------------------
 
 
@@ -336,6 +344,9 @@ void setup() {
 
 void loop() {
   Serial.println("-------------------------------------------\n");
+
+  read_from_thingspeak();
+  
   c = 0;
 
   clear_data_fields();
