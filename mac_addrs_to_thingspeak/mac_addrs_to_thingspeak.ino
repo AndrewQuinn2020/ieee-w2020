@@ -58,8 +58,6 @@
 
 //----------------  #define Initializations   ----------------------
 
-#define BLE_NAME "__________________" // Other BLE devices will see this name as the ESP32's name.
-
 #define BAUD_RATE 115200 // (lol) How quickly to resolve the 1s and 0s sent over Serial into ASCII.
 #define LOOP_RATE  20000 // (ms)  How many milliseconds to pause before running the loop again.
 #define DOT_RATE     250 // (ms)  How quickly the dots will appear over Serial as we go to the next loop.
@@ -128,6 +126,9 @@ int dot_time; // Just used to track the final part of the loop().
 
 
 //----------------  Fill in your credentials   ---------------------
+
+// Pick a name you can recognize. Other Bluetooth devices will see this.
+#define BLE_NAME "__________________"
 
 // your network SSID (name)
 char ssid[] = "__________________";
