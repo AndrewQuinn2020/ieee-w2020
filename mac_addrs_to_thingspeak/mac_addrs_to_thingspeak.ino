@@ -280,7 +280,8 @@ void pull_and_set_timestamp() {
   Serial.println("Updating and setting timestamp.");
 
   timeClient.update();
-  timestamp = timeClient.getFormattedTime();
+  timestamp = "Device name: " + String(BLE_NAME) + ", @ Unix epoch ";
+  timestamp = timestamp + timeClient.getEpochTime();
 
   return;
 }
