@@ -1,6 +1,8 @@
 # Winter 2020 IEEE Project
 
-# What the Arduino sketch does
+The Arduino code is under `mac_addrs_to_thingspeak`.
+
+# What the `mac_addrs_to_thingspeak` Arduino sketch does
 
 - For each ESP 32:
   - Get on Wifi (hardcoded which one).
