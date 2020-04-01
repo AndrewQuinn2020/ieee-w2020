@@ -62,17 +62,3 @@ Doing so means that when you push those changes back up to GitHub, **anyone can 
 
 
 ## Upload, open Serial Monitor ![](imgs/esp32-serial-monitor.png) and watch the magic!
-
-------------------------------
-
-## About the ESP32
-
-Espressif Systems' little System on a Chip, the [ESP32](http://esp32.net/), is a really nifty little thing. It can do a ton of stuff for such a little chip, as you can see below.
-
-![ESP32 - Capabilities](imgs/esp32-capabilities.png)
-
-*We* here on the Northwestern University, IEEE Hardware project, however, are pretty much just using it for these ones:
-
-![ESP32 - Our use case](imgs/esp32-our-use-case.png)
-
-Ultimately, we are trying to
